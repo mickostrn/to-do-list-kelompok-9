@@ -1,7 +1,6 @@
 import { deleteOne } from "./deleteNote.js";
 import { toggleStatus } from "./toggleStatus.js";
 
-// Data & Fungsi Storage langsung ditanam di sini
 let notes = JSON.parse(localStorage.getItem("todo-data") || "[]");
 
 function saveToLocalStorage() {
