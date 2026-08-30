@@ -1,37 +1,35 @@
 h1 {
-    text-align: center;
-      padding-top: 10px;
-    
-    
-    
+  text-align: center;
+  padding-top: 10px;
 }
-  nav{
-    background-color: aqua;
-    border: 3px solid;
-     padding: 30px 30px 50px 30px; 
-
-    
- 
-  }
-.landingPage {
-    margin-top: 20px;
-    background-color: coral;
-    height:500px;
-    border:3px solid; 
+nav {
+  background-color: aqua;
+  border: 3px solid;
+  padding: 30px 30px 50px 30px;
+}
+.baris-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-left: 20px;
 }
 
 input {
-    width: 300px;
-    height: 30px;
-    margin-left: 20px;
-    margin-top: 30px;
-    border: 3px solid ;
+  width: 300px;
+  height: 30px;
+  border: 3px solid;
+}
+
+.tomboltambah {
+  width: 100px;
+  height: 40px;
+}
+.tombolhapus{
+    width: 110px;
+    height: 40px;
 }
 p {
     margin-left: 20px;
 }
-button {
-    height: 39px;
-    margin-left: 10px;
-    
-}
+
