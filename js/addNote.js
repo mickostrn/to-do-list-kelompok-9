@@ -8,8 +8,10 @@ export function addNote() {
 
   const newNote = { id: Date.now(), text: text, isCompleted: false };
   notes.push(newNote);
-  
+
   saveToLocalStorage();
   render();
   inputNote.value = "";
 }
+
+document.getElementById("submitNote").addEventListener("click", addNote);

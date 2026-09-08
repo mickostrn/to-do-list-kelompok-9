@@ -1,13 +1,13 @@
-import { deleteOne } from "./deleteNote.js";
+import { deleteOne } from "./deleteOne.js";
 import { toggleStatus } from "./toggleStatus.js";
 
-let notes = JSON.parse(localStorage.getItem("todo-data") || "[]");
+export let notes = JSON.parse(localStorage.getItem("todo-data") || "[]");
 
-function saveToLocalStorage() {
+export function saveToLocalStorage() {
   localStorage.setItem("todo-data", JSON.stringify(notes));
 }
 
-function render() {
+export function render() {
   const tampilNote = document.getElementById("tampilNote");
   tampilNote.innerHTML = "";
 
@@ -33,3 +33,5 @@ function render() {
     tampilNote.appendChild(li);
   });
 }
+
+render();
