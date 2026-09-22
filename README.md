@@ -8,8 +8,8 @@ Fitur Utama
 - Togle status tugas
 
 Anggota tim
-Nama                            | Peran
-Mohamad Micko Ramadhan Satriana | PM/Team Lead, Backend Developer
-Syarif Hidayatullah             | FrontEnd Developer, UI/UX
-Rifqi Adani Muzhaffar           | BackEnd Developer
-Yusrizal                        | QA/Tester
+- Nama                            | Peran
+- Mohamad Micko Ramadhan Satriana | PM/Team Lead, Backend Developer
+- Syarif Hidayatullah             | FrontEnd Developer, UI/UX
+- Rifqi Adani Muzhaffar           | BackEnd Developer
+- Yusrizal                        | QA/Tester
